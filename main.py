@@ -15,7 +15,7 @@ def character_count(letters):
 def sort_on(dict):
     return dict["count"]
 
-def report(char_count_dict, num_words):  # Add num_words parameter
+def report(char_count_dict, num_words):
     chars = []
     for char, count in char_count_dict.items():
          if char.isalpha():
